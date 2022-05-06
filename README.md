@@ -1,13 +1,13 @@
 # Application examples
 
 ## Odometer initial state
-![Initial state](../monster-meter/src/screenshot/example_1.png)
+![Initial state](https://github.com/AMontoya224/monster-meter/blob/master/src/screenshot/example_1.png)
 
 ## Intermediate value entered to the odometer
-![Intermediate value](../monster-meter/src/screenshot/example_2.png)
+![Intermediate value](../master/src/screenshot/example_2.png)
 
 ## High value entered to odometer
-![High value](../monster-meter/src/screenshot/example_3.png)
+![High value](../master/src/screenshot/example_3.png)
 
 ## App dark theme
 ![Dark theme](../monster-meter/src/screenshot/example_4.png)
