@@ -1,0 +1,40 @@
+.odometer{
+    margin: 80px 20px;
+    padding: 20px 0;
+    width: 420px;
+    height: 300px;
+    border-radius: 20px;
+    background: var(--color-white);
+    box-shadow: inset -2px -2px 2px var(--color-table-variant);
+    transition: all 500ms ease;
+}
+.odometer:hover{
+    box-shadow: inset -2px -2px 2px var(--color-table);
+}
+
+.odometer-base{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.odometer-aguja{
+    width: 90px;
+    position: relative;
+    top: -30px;
+    left: 118px;
+    transform-origin: 84% 21%;
+}
+
+h4{
+    color: var(--color-warning);
+    position: relative;
+    top: -50px;
+    left: 170px;
+    font-weight: 600;
+}
+.h4-green{
+    color: var(--color-sucess);
+}
+.h4-red{
+    color: var(--color-danger);
+}
