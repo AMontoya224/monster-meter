@@ -1,16 +1,16 @@
 # Application examples
 
 ## Odometer initial state
-![Initial state](../master/src/screenshot/example_1.png)
+![Initial state](../master/src/screenshot/Example_1.png)
 
 ## Intermediate value entered to the odometer
-![Intermediate value](../master/src/screenshot/example_2.png)
+![Intermediate value](../master/src/screenshot/Example_2.png)
 
 ## High value entered to odometer
-![High value](../master/src/screenshot/example_3.png)
+![High value](../master/src/screenshot/Example_3.png)
 
 ## App dark theme
-![Dark theme](../master/src/screenshot/example_4.png)
+![Dark theme](../master/src/screenshot/Example_4.png)
 
 
 # Getting Started with Create React App
