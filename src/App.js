@@ -6,7 +6,7 @@ import Odometer from './components/Odometer/Odometer';
 
 
 function App() {
-  const [valueOdometer, setValueOdometer] = useState( '' );
+  const [valueOdometer, setValueOdometer] = useState( 0.00 );
 
   const onSubmitValue = valueNew => {
     setValueOdometer( valueNew.update );

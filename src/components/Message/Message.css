@@ -5,12 +5,12 @@
     background: white;
     border-radius: 20px;
     margin: 20px;
-    background: var(--color-white);
-    box-shadow: inset -2px -2px 2px var(--color-table-variant);
+    background: var(--color-background);
+    box-shadow: inset -2px -2px 4px var(--color-table-variant);
     transition: all 500ms ease;
 }
 .message:hover{
-    box-shadow: inset -2px -2px 2px var(--color-table);
+    box-shadow: inset -2px -2px 4px var(--color-table);
 }
 .yellow{
     border-top: 20px solid var(--color-warning);
@@ -27,7 +27,6 @@ form{
     align-items: center;
 }
 
-/* ------------- INPUT ------------- */
 .inp-container{
     margin: 1.25rem auto;
 }
@@ -44,7 +43,7 @@ form{
     top: 0;
     left: 12px;
     transform-origin: 0 0;
-    color: var(--color-black);
+    color: var(--color-letter);
     opacity: .7;
     transform: translate3d(0, 0, 0);
     transition: all .2s ease;
@@ -86,7 +85,7 @@ form{
     background: rgba(0, 0, 0, .01);
     box-shadow: var(--box-shadow);
     transition: all 500ms ease;
-    color: var(--color-black);
+    color: var(--color-letter);
 }
 .inp-input:hover{
     background: rgba(0, 0, 0 , .04);
@@ -94,7 +93,7 @@ form{
 }
 
 .inp-input:not(:placeholder-shown) + .inp-label{
-    color: var(--color-black);
+    color: var(--color-letter);
     transform: translate3d(0, -17px, 0) scale(.75);
 }
 .inp-input:focus{
